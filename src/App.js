@@ -94,7 +94,7 @@ function App() {
                   </p>
                   <p>11°</p>
                   <p>
-                    <small>CLOUDY</small>
+                    <small>RAIN</small>
                   </p>
                 </li>
                 <li>
