@@ -1,4 +1,4 @@
-name: CI CD
+name: CICD
 
 on:
   push:
@@ -22,10 +22,14 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: install yarn
+      run: |
+        npm install yarn
+        rm package-lock.json
     - name: install dependencies, build
       run: |
-        npm install
-        npm run build
+        yarn install
+        yarn build
         
     - name: upload artifact
       uses: actions/upload-artifact@master
