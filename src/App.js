@@ -33,7 +33,7 @@ function App() {
           <div className="card__main">
             <h1>HOBART</h1>
             <div className="card__main__left">
-              <h1>15</h1>
+              <h1>18</h1>
               <div className="celsius"></div>
               <p>CLOUDY</p>
               <ul>
